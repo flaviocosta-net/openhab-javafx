@@ -1,0 +1,50 @@
+{
+	"type": "smarthome", "data": {"id": "demo", "label": "My home automation", "lang": "en"}, "layout": "list",
+	"components": [
+		{
+			"type": "frame", "data": "Date", "style": "font-weight:bold;font-size:large", "layout": "listcontrol",
+			"components": [
+				{
+					"type" : "widget", "components": [
+						{"type": "icon", "data": "icon:text#20160801000000", "style": "width:16px;height:16px"},
+						{"type": "label", "data": "Today"},
+						{"type": "text", "data": "Monday, 01.Aug.2016", "style": "font-weight:bold"}
+					]
+				}
+			]
+		},
+		{
+			"type": "frame", "data": "Demo", "style": "font-weight:bold;font-size:large", "layout": "listcontrol",
+			"components": [
+				{
+					"type" : "widget", "components": [
+						{"type": "icon", "data": "icon:light#ON", "style": "width:16px;height:16px"},
+						{"type": "label", "data": "Lights"},
+						{"type": "switch", "data": {"selected": "ON"}}
+					]
+				},
+				{
+					"type" : "widget", "components": [
+						{"type": "icon", "data": "icon:temperature#21.3", "style": "width:16px;height:16px"},
+						{"type": "label", "data": "Livingroom"},
+						{"type": "text", "data": "21.3 °C", "style": "font-weight:bold"}
+					]
+				},
+				{
+					"type" : "widget", "components": [
+						{"type": "icon", "data": "icon:group", "style": "width:16px;height:16px"},
+						{"type": "label", "data": "Heating"},
+						{"type": "group", "data": "item:Heating"}
+					]
+				},
+				{
+					"type" : "widget", "components": [
+						{"type": "icon", "data": "icon:video", "style": "width:16px;height:16px"},
+						{"type": "label", "data": "Multimedia"},
+						{"type": "group", "data": "components-4/"}
+					]
+				}
+			]
+		}
+	]
+}

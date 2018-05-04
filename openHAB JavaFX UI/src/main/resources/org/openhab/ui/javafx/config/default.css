@@ -1,0 +1,95 @@
+/* snackbar */
+.jfx-snackbar-content {
+    -fx-background-color: gray;
+}
+
+.jfx-snackbar-toast {
+    -fx-text-fill: white;
+    -fx-font-size: 12pt;
+}
+
+/* app bar */
+.app-bar {
+	-fx-background-color: #3F51B5;
+	-fx-font-size: 14pt;
+	-fx-padding: 15;
+}
+
+.app-bar Label {
+	-fx-text-fill: white;
+}
+
+.app-bar HBox {
+	-fx-spacing: 15;
+}
+
+.navigation-up, .overflow-menu, .jfx-hamburger { 
+	-fx-cursor: hand;
+}
+
+.jfx-hamburger StackPane {
+    -fx-pref-height: 1pt;
+    -fx-pref-width: 15pt;
+    -fx-background-color: white;
+}
+
+/* sitemap view */
+.list-view .list-cell {
+	-fx-background-color: white;
+}
+
+.list-view .label {
+    -fx-text-fill: black;
+}
+
+.list-view .container-widget {
+	-fx-border-color: lightgrey;
+	-fx-border-width: 0 0 1px 0;
+	-fx-cell-size: 50px;
+	-fx-padding: 0 10 0 10;
+}
+
+.list-view .clickable:selected .label {
+    -fx-text-fill: white;
+}
+
+.list-view .clickable:selected {
+	-fx-background-color: grey;
+}
+
+.list-view .clickable {
+	-fx-cursor: hand;
+}
+
+.list-view .container-frame {
+	-fx-padding: 5 0 5 10;
+	-fx-font-weight: bold;
+	-fx-background-color: #EEEEEE;
+	-fx-font-size: larger;
+}
+
+/* atoms */
+.jfx-combo-box .list-view .list-cell {
+    -fx-text-fill: black;
+}
+
+.jfx-combo-box .list-view .list-cell:filled:selected {
+	-fx-font-weight: bold;
+}
+
+.jfx-combo-box .list-view .list-cell:filled:hover {
+	-fx-background-color: #EEEEEE;
+}
+
+.atom-label {
+	-fx-max-width: 160;
+}
+
+.atom-text {
+	-fx-font-weight: bold;
+	-fx-max-width: 160;
+}
+
+.jfx-toggle-button {
+	-jfx-size: 6;
+}

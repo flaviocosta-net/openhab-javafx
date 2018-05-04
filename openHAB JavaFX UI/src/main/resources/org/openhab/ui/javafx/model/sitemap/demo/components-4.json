@@ -1,0 +1,18 @@
+{
+	"type": "page", "data": {"label": "Multimedia"}, "layout": "listcontrol",
+	"components": [
+		{
+			"type" : "widget", "components": [
+				{"type": "icon", "data": "icon:screen#0", "style": "width:16px;height:16px"},
+				{"type": "label", "data": "Channel"},
+				{"type": "selection", "data": {"mappings": {"0": "off", "1": "DasErste", "2": "BBC One", "3": "Cartoon Network"}, "selected": "1"}}
+			]
+		},{
+			"type" : "widget", "components": [
+				{"type": "icon", "data": "icon:soundvolume#15", "style": "width:16px;height:16px"},
+				{"type": "label", "data": "TV Volume"},
+				{"type": "slider", "data": "15"}
+			]
+		}
+	]
+}
